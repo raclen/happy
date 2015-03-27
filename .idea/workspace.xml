@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e5ffab5-bf5b-4a4f-82c3-984b213858c7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/feadmin/editArticle.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/feadmin/nodejs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nodejs_db.sql" />
+      <change type="DELETED" beforePath="D:\wamp\www\happy\.idea\.name" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\happy\.idea\encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\happy\.idea\happy.iml" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\happy\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\happy\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\happy\.idea\scopes\scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\happy\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\happy\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\wamp\www\happy\contributing.md" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/Welcome.php" afterPath="$PROJECT_DIR$/application/controllers/Welcome.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/nodejs_mode.php" afterPath="$PROJECT_DIR$/application/models/nodejs_mode.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -29,24 +41,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.094076656" vertical-offset="0" max-vertical-offset="574">
-              <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+            <state vertical-scroll-proportion="-5.76" vertical-offset="0" max-vertical-offset="252">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nodejs_mode.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="nodejs_mode.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/models/nodejs_mode.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.666667" vertical-offset="0" max-vertical-offset="378">
-              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.44055945" vertical-offset="0" max-vertical-offset="572">
+              <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
               <folding>
-                <marker date="1427365185874" expanded="true" signature="301:319" placeholder="select * fro..test..." />
-                <marker date="1427365185874" expanded="true" signature="319:349" placeholder="select * fro..nodejs_db..." />
+                <marker date="1427419886034" expanded="true" signature="341:359" placeholder="select * fro..test..." />
+                <marker date="1427419886034" expanded="true" signature="540:558" placeholder="select * fro..test..." />
               </folding>
             </state>
           </provider>
@@ -65,8 +77,8 @@
       <file leaf-file-name="Welcome.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/Welcome.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="666">
-              <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1116">
+              <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -87,8 +99,8 @@
       <list>
         <option value="$PROJECT_DIR$/application/config/database.php" />
         <option value="$PROJECT_DIR$/application/controllers/Welcome.php" />
-        <option value="$PROJECT_DIR$/application/models/nodejs_mode.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/application/models/nodejs_mode.php" />
       </list>
     </option>
   </component>
@@ -304,8 +316,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1427365185874" expanded="true" signature="301:319" placeholder="select * fro..test..." />
-            <marker date="1427365185874" expanded="true" signature="319:349" placeholder="select * fro..nodejs_db..." />
+            <marker date="1427419886034" expanded="true" signature="341:359" placeholder="select * fro..test..." />
+            <marker date="1427419886034" expanded="true" signature="540:558" placeholder="select * fro..test..." />
           </folding>
         </state>
       </provider>
@@ -339,23 +351,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contributing.md">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.3522727" vertical-offset="1242" max-vertical-offset="1800">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.75085324" vertical-offset="440" max-vertical-offset="1026">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -412,8 +407,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/Welcome.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="666">
-          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1116">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -425,22 +420,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/nodejs_mode.php">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.666667" vertical-offset="0" max-vertical-offset="378">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-          <folding>
-            <marker date="1427365185874" expanded="true" signature="301:319" placeholder="select * fro..test..." />
-            <marker date="1427365185874" expanded="true" signature="319:349" placeholder="select * fro..nodejs_db..." />
-          </folding>
+        <state vertical-scroll-proportion="-5.76" vertical-offset="0" max-vertical-offset="252">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/application/models/nodejs_mode.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.094076656" vertical-offset="0" max-vertical-offset="574">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-          <folding />
+        <state vertical-scroll-proportion="0.44055945" vertical-offset="0" max-vertical-offset="572">
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+          <folding>
+            <marker date="1427419886034" expanded="true" signature="341:359" placeholder="select * fro..test..." />
+            <marker date="1427419886034" expanded="true" signature="540:558" placeholder="select * fro..test..." />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>test</title>
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">
+</head>
+<body>
+
+</body>
+
+<script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+<script>
+    var nodejsurl= 'http://localhost/happy/index.php/Welcome/nodejs_controller';
+    $(function(){
+        $.ajax({
+            url:nodejsurl,
+            dataType:'json',
+            type:'GET',
+            success:function(data){
+            alert(JSON.stringify(data));
+        }
+        })
+    })
+</script>
+</html>
