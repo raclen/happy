@@ -14,7 +14,7 @@ class Nodejs_mode extends CI_Model {
     }
     function getNodejsAll(){
         $this -> load -> database();
-        $query = $this->db->get("test");
+        $query = $this->db->query("select * from test");
         //var_dump($query);
         return $query->result();
     }
