@@ -37,8 +37,17 @@ class Welcome extends CI_Controller
         $data = $this->Nodejs_mode->getNodejsAll();
         echo json_encode($data);
     }
-
-
+    /*
+     * 查询数据
+     */
+    function getshowblog(){
+        $this->load->model('Nodejs_mode');
+        $data = $this->Nodejs_mode->geblogAll();
+        echo json_encode($data);
+    }
+    /*
+     * 插入数据（blog）
+     */
     function insertArticle_controller()
     {
         $this->load->model('Nodejs_mode');

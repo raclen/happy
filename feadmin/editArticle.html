@@ -6,7 +6,7 @@
     <!-- 新 Bootstrap 核心 CSS 文件 -->
     <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <style>
-        .form-control{
+        .form-control {
             width: 400px;
         }
     </style>
@@ -24,26 +24,27 @@
 </body>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 <script>
-    $(function(){
-    var editjsurl= 'http://localhost/happy/index.php/Welcome/insertArticle_controller';
-
-
-    $('.btn').on('click',function(){
-        var data ={
-            title:$('#name').val(),
-            content:$('#content').val()
-        }
-        console.log(data);
-        $.ajax({
-            url:editjsurl,
-            dataType:'json',
-            type:'GET',
-            data :data,
-            success:function(data){
-
+    $(function () {
+        var editjsurl = 'http://localhost/happy/index.php/Welcome/insertArticle_controller';
+        $('.btn').on('click', function () {
+            var data = {
+                title: $('#name').val(),
+                content: $('#content').val()
             }
+            console.log(data);
+            $.ajax({
+                url: editjsurl,
+                dataType: 'json',
+                type: 'GET',
+                data: data,
+                success: function (data) {
+                    if(data){
+                        alert('添加成功')
+                    }
+                    window.location.href='../fehome/article.html'
+                }
+            })
         })
-    })
     })
 </script>
 </html>

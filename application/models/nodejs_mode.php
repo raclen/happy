@@ -15,15 +15,23 @@ class Nodejs_mode extends CI_Model {
     }
     function getNodejsAll(){
 
-        $this -> load -> database();
-
         $query = $this->db->get("test");
+        //var_dump($query);
+        return $query->result();
+    }
+    function geblogAll(){
+        $query = $this->db->get("blog");
         //var_dump($query);
         return $query->result();
     }
     function insertArticle($d){
         //var_dump($d);
-        $this->db->insert('blog',$d);
-        var_dump($d);
+        $query = $this->db->insert('blog',$d);
+    /*    if($query>0){
+            echo 'true';
+        }else{
+            echo 'false';
+        }*/
+        echo $query>0?true: false;
     }
 }
